@@ -4,6 +4,7 @@ Install dependencies
 
 ```
 npm install
+./node_modules/.bin/selenium-standalone install
 ```
 
 # General usage
@@ -11,23 +12,23 @@ npm install
 Run selenium-standalone sever
 
 ```
-selenium-standalone start
+./node_modules/.bin/selenium-standalone start
 ```
 
 To run tests
 
 ```
-gemini test
+./node_modules/.bin/gemini test
 ```
 
 To run using GUI
 
 ```
-gemini gui test
+./node_modules/.bin/gemini gui test
 ```
 
 To update current screenshots
 
 ```
-gemini gui update
+./node_modules/.bin/gemini update
 ```

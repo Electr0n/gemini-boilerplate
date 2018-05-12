@@ -1,0 +1,40 @@
+rootUrl: https://www.google.com/
+gridUrl: http://127.0.0.1:4444/wd/hub
+
+calibrate: false
+tolerance: 3.5
+windowSize: 1366x768
+screenshotsDir: ./gemini/screens
+compositeImage: true
+
+httpTimeout: 10000
+sessionRequestTimeout: 60000
+sessionQuitTimeout: 10000
+
+sessionsPerBrowser: 1
+suitesPerSession: 100
+
+browsers:
+  your-browser-name:
+    desiredCapabilities:
+      browserName: chrome
+      platform: LINUX
+  another-browser-name:
+    desiredCapabilities:
+      browserName: firefox
+      platform: LINUX
+
+sets:
+  medium:
+    files:
+     - gemini/google
+    browsers:
+     - your-browser-name
+     - another-browser-name
+
+system:
+  plugins:
+    'html-reporter/gemini':
+      enabled: true
+      path: 'gemini/reports'
+      defaultView: 'all'
