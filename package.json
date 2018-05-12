@@ -1,0 +1,28 @@
+{
+  "name": "gemini-boilerplate",
+  "version": "1.0.0",
+  "description": "Gemini js boilerplate",
+  "main": "index.js",
+  "dependencies": {
+    "gemini": "^5.7.0",
+    "html-reporter": "^2.15.0",
+    "selenium-standalone": "^6.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@me.github.com:Electr0n/gemini-boilerplate.git"
+  },
+  "keywords": [
+    "Gemini",
+    "Gemini",
+    "JS",
+    "screenshot",
+    "tests",
+    "e2e",
+    "tests"
+  ],
+  "author": "Electr0n",
+  "license": "ISC"
+}
