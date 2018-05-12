@@ -7,9 +7,9 @@ windowSize: 1366x768
 screenshotsDir: ./gemini/screens
 compositeImage: true
 
-httpTimeout: 5000
+httpTimeout: 10000
 sessionRequestTimeout: 60000
-sessionQuitTimeout: 5000
+sessionQuitTimeout: 10000
 
 sessionsPerBrowser: 1
 suitesPerSession: 100
